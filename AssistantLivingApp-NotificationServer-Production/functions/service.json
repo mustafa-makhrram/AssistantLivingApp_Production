@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "assistant-living-app",
+  "private_key_id": "e16f52d590a7883baf622cf2a72492f58afe072d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9zmUtPVfldfnV\n0hePg8QM4mqioVVZhiZktcm1EKoKn4i3/r+4wLSTeCezwoB144cXU8sT96DFWb8a\noS0T4w9V+bwK2TDi3iBNkeoBylvzha2JXCA3qSxJ63fWp4WVHSERGtE9YT1gB856\nGAbZn0HJdBAjMvh9U7QM3NCPURqH8ufHak/sLf60e7K/ZvU3DQu5w5XCbZPwMfmL\noqULgQBumUw+i7toOfybL47eOdr+sQkXARAheE9+X9PHP5c3dDNh5X2miuNSmLcu\nsu141PSLTUg92JFrjAjf2nPeULm65W6FYVOY2QVdZRC2zhBpIsANiSO3EHAPTqG+\nLtoxDtCNAgMBAAECggEACjBvxFoe2KhuKoPWPvPjDOavXx6hDybBSIvCZxrHaL2V\nYHySUeU1FxY5WhA5cYVZha+PtHkzzhRaICBXOVI+9a3BN1CJ1sv3g6KEeOciQN7u\nvh54yPQnIVVngARLNVeJzw9s/HS2ukErsj3i9EDKjnl8D5+ssPGoNek5YFA0HT3I\nc8oEv/u4U5yCShwH43Dp0NPrN8r6JjWwHMhwKpUTpse/5UeXdgV0N/EVK57/s0MA\nSLuLNIebb+8NWfd/DT58lFXzEjIKnN9763H9PzTkZyTC/vkuIfy5PDatrvaNHiJM\ncizyQ5ro/ReMtB2DlF6nbui3L4qIjtU+n1+q2rRSowKBgQDklkP5O0/sZA4M4sg/\n8iqO/VBZboq6fe3NQqXEJhOmGWqec2DxQ2SDAoFVqIrnOwFzZzo3Cv2MAqKnwmoS\nHykdS1GlE3hKW0XCVAwQaD6btBpfEDCJYEKrHhKKJBkrgQQfcy6xUZRQi2jxIHgN\npp+3jfVgk8nNDRHZmOa7s636fwKBgQDUkYqeSqvErIMxj/Ne2bEY7uuDXhI5RtAm\nVSXlwgJb4iK7i0rZc+ZBEMHvRw/dOYCWUxMGiVQqAan9XOczU2NRWzFmyJI0iDqV\nRSNc5iF9hhcRaZogJDT86TzwYyLrt0K2G8MZ9hLzz3vab6tyeZWKwWs5pDZE/mUu\njdL8qcz28wKBgQCP9brVae9J1zGqF+E5tI/tAcfqqt2f2dM8JC81uy1AvF0TcWKq\nT2EryRYfFkh0nAqr3WUiaT+JP9ekg6I9y3YfRuIiboKhgZ4LZtc6NgzIDsNU/2My\nAXe7QPM4IMfhSB2KmQXdEp2vpDzxLxusrTWFalgQ/MJo60REoDEgIWb+jQKBgFrq\nPL1i9oBRwHLsPIzu0p31Yel3zJeOv+wFMwZHqjaeS3inJMZImcxuXGP4osJdm6+v\nrE15YvPsbkYc/A2ptqrPNBvf4Rhyw4ugXHWZP+2t8iPSZMcmdTtOjm/KFt92LCQz\nT4jFBGoe7bwJUuzNL7Z+71th7ownuiLlKb5C6ZUdAoGAGnQtq6gm01SRVwyFboal\nPNPJJUWd7pygngsuAfgEuQ5ML4VSm0RJ9x2/yUQ9vi4ft195qPhdolEeVVFmHYNi\nQmFjFlV7ROtw7eVMpcZ/CxemQtij8TKVvDz5nOdNw95+RuYxI3C0UyRsBG4Opmv9\n3uDEItj6rD40LL2zjZwFEwE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-2oi2f@assistant-living-app.iam.gserviceaccount.com",
+  "client_id": "101019478500938557115",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2oi2f%40assistant-living-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

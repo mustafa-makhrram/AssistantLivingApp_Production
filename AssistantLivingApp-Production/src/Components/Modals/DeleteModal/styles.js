@@ -1,0 +1,64 @@
+import { Dimensions, StyleSheet } from 'react-native';
+import { ScaledSheet, scale } from 'react-native-size-matters';
+
+const devicewidth = Dimensions.get('window').width;
+const deviceheight = Dimensions.get('window').height;
+
+const createStyles = (theme) => {
+  return StyleSheet.create({
+    modal:{
+      backgroundColor:'#fff',height:scale(200)
+    },
+    modalbox: {
+        width: devicewidth - 60,
+        padding: scale(7),
+        backgroundColor: 'white',
+        // height: scale(100),
+        // alignSelf: "center",
+        // top:scale(80),
+        // paddingVertical:scale(12),
+        overflow:'hidden',
+        // position:"absolute",
+        borderRadius:scale(16),
+        // borderTopLeftRadius:scale(16),
+        // borderBottomLeftRadius:scale(16),
+        // borderBottomRightRadius:scale(16),
+        // borderRadius: scale(16),
+        // padding: scale(12),
+        elevation: 4, // for Android shadow
+        // iOS shadow properties
+        alignSelf:"center",
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+    },
+    btn:{
+        flexDirection:"row",alignItems:"center",justifyContent:"space-between",width:"100%",padding:scale(12),
+    },
+    btndel:{
+        backgroundColor:theme.primary,padding:scale(9),borderRadius:scale(10),width:'45%',alignItems:"center",justifyContent:"center",marginTop:scale(10)
+    },
+
+    delbtn:{
+      alignSelf:"flex-end",padding:scale(5),borderRadius:scale(22),
+    },
+    line:{
+        width:'100%',height:1,backgroundColor:'#333',alignSelf:"center"
+    },
+    txt:{
+        fontFamily:"PoppinsM",fontSize:scale(16),color:theme.primary
+    },
+    txtdel2:{
+        fontFamily:"PoppinsM",fontSize:scale(13),color:theme.primary,alignSelf:"center"
+    },
+    txtdel:{
+        fontFamily:"PoppinsM",fontSize:scale(14),color:'#fff',alignSelf:"center"
+    },
+    row:{
+        flexDirection:"row",justifyContent:"space-between",marginTop:scale(10),width:'100%'
+    }
+  });
+};
+
+export default createStyles;
