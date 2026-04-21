@@ -1,35 +1,59 @@
-This Repository contains 4 types of source codes.
+🩺 Assistant Living App
 
-1. React native expo Mobile App
-React native Expo App :
-To run the mobile app , you have to run following commands,
-Run :
-- npm install
-- npx expo install
-- npx expo run:android
+A full-stack mobile application designed to support elderly and disabled individuals by monitoring daily activities and providing real-time alerts using IoT sensors.
 
-2. Firebase Functions Server for Notifications
-- processMedicationEventv2
-- processInactiveUsersv2
-- processBedSleep
-- processUnusualActivity
+📱 Overview
 
+The Assistant Living App is a smart healthcare solution that combines mobile development, IoT sensors, and cloud services to improve independent living.
 
-4. Sensor Testing Visualizations
-React components used to generate performance analysis charts based on sensor testing data. These visualizations were used in the project report to demonstrate system reliability and performance metrics.
+The system tracks user activity (movement, sleep, medication usage) and sends alerts when unusual behavior is detected.
 
-5. Sensors Code
-MicroPython implementation for the various sensors integrated with Raspberry Pi Pico W microcontrollers:
+🚀 Key Features
+📲 Mobile App (React Native - Expo)
+Medication reminders and notifications
+Real-time updates from sensors
+User-friendly interface for monitoring
+☁️ Backend (Firebase Functions)
+Real-time data processing
+Automated alert system for unusual activity
+Cloud-based event handling
+📡 IoT Sensor Integration (Raspberry Pi Pico W)
+Motion detection (PIR sensor)
+Sleep and pressure monitoring
+Movement analysis (MPU-6050)
+Medication box interaction tracking
+Distance detection (ultrasonic sensor)
+📊 Data Visualization
+Sensor performance analysis
+Reliability metrics and system evaluation
 
-- capacitive.py: Monitors medication box interactions using a capacitive touch sensor
-- MPU-6050.py: Detects movement patterns including start, stop, significant, and unusual movements
-- PIR_motion.py: Tracks room occupancy through entry and exit event detection
-- pressure.py: Monitors bed/chair usage through pressure sensing
-- ultrasonic.py: Measures object proximity with approach/retreat detection
+🛠️ Technologies Used
+React Native (Expo)
+Firebase Realtime Database & Functions
+Node.js
+MicroPython (Raspberry Pi Pico W)
+JavaScript
 
-Each sensor module includes:
-- Configuration variables and pin setups
-- Firebase connectivity for real-time data transmission
-- Error handling and recovery mechanisms
-- Performance metric collection (latency, success rates)
-- Automatic data buffering during connectivity loss
+📂 Project Structure
+Mobile App → React Native frontend
+Firebase Functions → Backend logic and notifications
+Sensors Code → MicroPython scripts for IoT devices
+Visualizations → Performance analysis tools
+
+▶️ How to Run the App
+npm install  
+npx expo install  
+npx expo run:android  
+
+💡 My Contribution
+Designed and developed the mobile application
+Integrated Firebase for real-time data handling
+Implemented IoT sensor communication
+Built system logic for alerts and monitoring
+Conducted testing and performance evaluation
+
+📌 Future Improvements
+Full Android native version (Kotlin/Java)
+Machine learning for behavior prediction
+Enhanced UI/UX design
+Real-time caregiver dashboard
